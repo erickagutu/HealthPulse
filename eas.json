@@ -1,5 +1,12 @@
 {
+  "cli": {
+    "version": ">= 5.0.0"
+  },
   "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
     "preview": {
       "android": {
         "buildType": "apk"
@@ -7,6 +14,10 @@
       "env": {
         "EXPO_USE_PNPM": "0"
       }
-    }
+    },
+    "production": {}
+  },
+  "submit": {
+    "production": {}
   }
 }
