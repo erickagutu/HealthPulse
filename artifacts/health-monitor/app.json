@@ -1,43 +1,31 @@
 {
   "expo": {
-    "name": "HealthPulse",
-    "slug": "health-monitor",
+    "name": "Define Health",
+    "slug": "define-health",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "scheme": "health-monitor",
-    "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/images/splash.png",
-      "resizeMode": "cover",
-      "backgroundColor": "#f0f7f6"
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
     },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
-      "supportsTablet": false
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/icon.png",
-        "backgroundColor": "#f0f7f6"
-      }
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.erickagutu.definehealth"
     },
     "web": {
-      "favicon": "./assets/images/icon.png"
-    },
-    "plugins": [
-      [
-        "expo-router",
-        {
-          "origin": "https://replit.com/"
-        }
-      ],
-      "expo-font",
-      "expo-web-browser"
-    ],
-    "experiments": {
-      "typedRoutes": true,
-      "reactCompiler": true
+      "favicon": "./assets/favicon.png"
     }
   }
 }
