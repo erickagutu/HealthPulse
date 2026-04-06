@@ -1,19 +1,20 @@
 {
   "expo": {
-    "name": "Define Health",
-    "slug": "define-health",
+    "name": "healthpulse",
+    "slug": "healthpulse",
     "version": "1.0.0",
+    "sdkVersion": "50.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "extra": {
       "eas": {
         "projectId": "24a84925-08a6-40fc-9b19-72692b449151"
       }
     },
     "android": {
-      "package": "com.erickagutu.definehealth",
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+      "package": "com.erickagutu.healthpulse"
     }
   }
 }
