@@ -1,13 +1,9 @@
 {
   "expo": {
-    "name": "healthpulse",
-    "slug": "healthpulse",
+    "name": "Define Health",
+    "slug": "define-health", 
     "version": "1.0.0",
     "sdkVersion": "50.0.0",
-    "platforms": [
-      "ios",
-      "android"
-    ],
     "extra": {
       "eas": {
         "projectId": "24a84925-08a6-40fc-9b19-72692b449151"
